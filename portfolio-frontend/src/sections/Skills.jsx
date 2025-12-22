@@ -1,3 +1,5 @@
+import Tag from '../components/Tag';
+
 const skills = [
   "JavaScript (ES6+)",
   "React.js",
@@ -18,7 +20,7 @@ export default function Skills()  {
             <h2 className="text-lg md:text-2xl text-black mb-3 font-semibold">Skills</h2>
             <ul className="flex flex-wrap text-secondary-foreground leading-10">
                 {skills.map((skill, index) => (
-                 <li key={index}>{skill}</li>
+                 <li key={index} className="mr-4"><Tag name = {skill}/></li>
                 ))}
             </ul>
         </section>
