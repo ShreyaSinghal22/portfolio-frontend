@@ -1,9 +1,11 @@
 
-import './App.css'
-import Bio from './sections/bio'
-import Projects from './sections/Projects'
-import Skills from './sections/Skills'
- 
+import './App.css';
+import Bio from './sections/bio';
+import Projects from './sections/Projects';
+import Skills from './sections/Skills';
+import Contact from './sections/Contact';
+import Footer from './sections/footer';
+
 function App() {
 
   return (
@@ -15,8 +17,10 @@ function App() {
        </div>
        <div className="col-span-2">
          <Projects />
+         <Contact/>
        </div>
       </div>
+      <Footer/>
     </>
   )
 }

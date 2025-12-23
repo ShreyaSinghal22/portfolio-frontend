@@ -41,7 +41,7 @@ const projects = [
 function Projects() {
     return (
         <>
-         <h1 className="text-4xl text-black text-left font-semibold mb-2">
+         <h1 className="text-4xl text-left font-semibold mb-2">
             Recent Projects
          </h1>
          <ul className="bg-white text-left rounded-xl p-4">

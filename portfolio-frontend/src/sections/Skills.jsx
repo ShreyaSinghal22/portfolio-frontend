@@ -6,18 +6,18 @@ const skills = [
   "Node.js",
   "Express.js",
   "MongoDB",
-  "SQL",
+  "Java",
   "HTML & CSS",
   "Git & GitHub",
   "RESTful APIs",
-  "Test-Driven Development (TDD)",
-  "Agile/Scrum",
+  "Amazon Web Services",
+  "Cloud Computing",
 ];
 
 export default function Skills()  {
     return (
         <section className="bg-white text-left rounded-xl p-2 md:p-5 shadow-md mt-6">
-            <h2 className="text-lg md:text-2xl text-black mb-3 font-semibold">Skills</h2>
+            <h2 className="text-lg md:text-2xl mb-3 font-semibold">Skills</h2>
             <ul className="flex flex-wrap text-secondary-foreground leading-10">
                 {skills.map((skill, index) => (
                  <li key={index} className="mr-4"><Tag name = {skill}/></li>
